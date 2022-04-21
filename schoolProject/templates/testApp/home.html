@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends 'testApp/base.html' %}
+{% block body_block %}
+    {% load static %}
+<nav class=" navbar navbar-dark bg-primary">
+        <div class="nav navbar-navbar navbar-left">
+            <a class="navbar-brand" href="#" >&nbsp;&nbsp;Home</a>
+            <a class="navbar-brand" href="#" >About School</a>
+            <a class="navbar-brand" href="#" >Administration</a>
+            <a class="navbar-brand" href="#" >Culturals Acts</a>
+            <a class="navbar-brand" href="#" >Examinations</a>
+            <a class="navbar-brand" href="#" >Student Marks</a>
+            <a class="navbar-brand" href="#" >Fees Details</a>
+            <a class="navbar-brand" href="#" >Contact Us</a>
+            <a class="navbar-brand" href="#" >Feedback</a>
+        </div>
+</nav><br>
+<img src="{% static 'images/principal.jpg' %}" alt="oops">
+<strong>Mr.Pawan Kalyan</strong>
+<strong>Principal</strong><br><br><br><br><br>
+    <strong><p>Pasha Software Solutions</p></strong>
+{% endblock %}
